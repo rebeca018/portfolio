@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Outfit';
     margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-weight: 400; 
+    line-height: 1.6;
+    color: #fff;
 }
 
 html, .fullscreen {
@@ -12,6 +18,81 @@ html, .fullscreen {
     width: 100%;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100vw; 
+    margin: 20px;
+}
+
 .card{
-    background-color: hsl(215, 51%, 70%);
+    background-color: hsl(216, 50%, 16%);
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-img{
+    height: 210px;
+    width: 210px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.card-h4{
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-p-cinza{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;              
+}
+
+.card-eth{
+    display: flex;
+    align-items: center;
+}
+
+.card-img-eth{
+    width: 11px;
+    height: 18px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-img-eth img{
+    width: 100%; 
+    height: 100%;
+}
+
+.card-p-ciano{
+    font-size: 11px;
+    color: hsl(178, 100%, 50%);
+    margin-left: 5px;
+    display: flex;
+    align-items: center; 
+}
+
+.card-clock{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end; 
 }

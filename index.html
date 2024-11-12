@@ -6,7 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="styles.css" rel="stylesheet" type="text/css" />
-  <title>Frontend Mentor | NFT preview card component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
   <style>
@@ -19,32 +20,37 @@
 <body>
 
   <h1>Portfolio</h1>
-
-  <div class="card">
-    <div class="img">
-      <Image
-          width={107}
-          height={154}
-          src="./images/image-equilibrium.jpg"
-          class="card_img"
-      />
-    </div>
-
-    <div>
-      <h4>Equilibrium #3429</h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-    </div>
-    
-    <div>
-      <div>
-        <img src="./images/icon-ethereum.svg">
-        <p>0.041 ETH</p>
+  <div class="container">
+    <div class="card">
+      <div class="img">
+        <Image
+            width={107}
+            height={154}
+            src="./images/image-equilibrium.jpg"
+            class="card-img"
+        />
       </div>
+
       <div>
-        <img src="./images/icon-clock.svg">
-        <p>3 days left</p>
+        <h4 class="card-h4">Equilibrium #3429</h1>
+        <p class="card-p-cinza">Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      
+      <div class="card-container">
+        <div class="card-eth">
+          <div class="card-img-eth">
+            <img src="./images/icon-ethereum.svg" >
+          </div>
+          <div class="card-p-ciano">
+            <p>0.041 ETH</p>
+          </div>
+        </div>
+        <div class="card-clock">
+          <img src="./images/icon-clock.svg">
+          <p class="card-p-cinza">3 days left</p>
+        </div>
       </div>
     </div>
-  </div>
+  </div> 
 </body>
 </html>
