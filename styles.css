@@ -45,15 +45,19 @@ html, .fullscreen {
     margin: 0 auto;
 }
 
+
 .card-h4{
     color: #fff;
     font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
 }
 
 .card-p-cinza{
     color: hsl(215, 51%, 70%);
     font-size: 12px;
     font-weight: 300;
+    
 }
 
 .card-container{
@@ -61,7 +65,8 @@ html, .fullscreen {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; 
-    align-items: center;              
+    align-items: center; 
+    line-height: 0.5;            
 }
 
 .card-eth{
