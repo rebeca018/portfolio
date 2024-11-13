@@ -21,8 +21,7 @@ html, .fullscreen {
 .container {
     display: flex;
     flex-direction: column;
-    height: 800px;
-    width: 100vw; 
+    height: 800px; 
     margin: 20px;
 }
 
@@ -100,4 +99,11 @@ html, .fullscreen {
     flex-direction: row;
     align-items:center;
     justify-content: flex-end; 
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background: linear-gradient(to right, hsl(215, 51%, 70%) 2500px, transparent 0.5px); /* Linha fina de 0.5px */
+    margin: 10px 0; 
 }
