@@ -26,10 +26,9 @@
 
         <div class="img">
           <img
-              width={107}
-              height={154}
               src="./images/image-equilibrium.jpg"
               class="card-img"
+              alt="imagem"
           />
         </div>
 
@@ -39,33 +38,42 @@
         </div>
         
         <div class="card-container">
+
           <div class="card-power">
             <div class="card-img-power">
-              <img src="./images/bolt.svg" >
+              <img src="./images/bolt.svg" alt="Power Level">
             </div>
-            <div class="card-p-power">
-              <p>Power</p>
+            <div class="card-p-power" power-level="10">
+              <div class="power-bar"></div>
             </div>
           </div>
 
           <div class="card-location">
-            <img src="./images/location.svg">
+            <img src="./images/location.svg" alt="Location">
             <p class="card-p-cinza">Location</p>
           </div>
+
         </div>
+
         <div class="card-line"></div>
+
         <div class="card-created">
+
           <div class="card-img-created">
-            <img src="./images/rebeca.png" >
+            <img src="./images/rebeca.png" alt="Rebeca Nascimento">
           </div>
+
           <div class="card-p-created">
             <p>Creation of  <a href="https://www.linkedin.com/in/rebeca-nascimento018/"> Rebeca Nascimento</a></p>
           </div>
+
         </div>
         
       </div>
     </div>
 
   </div> 
+
+  <script src="script.js"></script>
 </body>
 </html>
