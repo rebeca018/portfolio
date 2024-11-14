@@ -33,7 +33,9 @@ html, .fullscreen {
     display: flex;
     flex-direction: column; 
     padding: 20px;
+    padding-bottom: 10px;
     box-sizing: border-box;
+    margin-bottom: 0;
 }
 
 .card-img{
@@ -103,8 +105,38 @@ html, .fullscreen {
 
 .card-line{
     width: 100%;
-    height: 1px; /* Espessura da linha */
-    background-color: rgba(255, 255, 255, 0.2); /* Cor da linha com transparência */
+    height: 1px; 
+    background-color: rgba(255, 255, 255, 0.2); 
     margin: 10px 0; 
 }
 
+.card-created{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 0.85em;
+    color: #b0b0b0;
+    margin: 0;
+}
+
+.card-img-created img{
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 8px;
+    border: 1px solid #fff;
+}
+
+.card-p-created{
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 0.5;
+    margin: 0;
+}
+
+.card-p-created a{
+    color: #fff;
+    text-decoration: none;
+}
