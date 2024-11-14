@@ -62,6 +62,23 @@ html, .fullscreen {
     transform: scale(0.98);
 }
 
+.card-ca{
+    display: inline-block;
+    background-color: 1C1B29;
+    border-radius: 10px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+    cursor: pointer;
+    width: 250px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.card-ca:hover{
+    background-image: linear-gradient(163deg, #0015ff 0%, #ff1900 100%);
+    box-shadow: 0px 0px 30px 1px rgba(0, 34, 255, 0.3);
+    transform: scale(0.98);
+}
+
 .card-t{
     display: inline-block;
     background-color: 1C1B29;
@@ -113,7 +130,7 @@ html, .fullscreen {
     transform: scale(0.98);
 }
 
-.card-ca{
+.card-sm{
     display: inline-block;
     background-color: 1C1B29;
     border-radius: 10px;
@@ -124,11 +141,13 @@ html, .fullscreen {
     padding: 5px;
 }
 
-.card-ca:hover{
-    background-image: linear-gradient(163deg, #0015ff 0%, #ff1900 100%);
+.card-sm:hover{
+    background-image: linear-gradient(163deg, #ff0000 0%, #000d81 100%);
     box-shadow: 0px 0px 30px 1px rgba(0, 34, 255, 0.3);
     transform: scale(0.98);
 }
+
+
 
 
 
