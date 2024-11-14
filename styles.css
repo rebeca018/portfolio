@@ -101,9 +101,10 @@ html, .fullscreen {
     justify-content: flex-end; 
 }
 
-hr {
-    border: none; 
-    height: 1px; 
-    background: linear-gradient(to right, hsl(215, 51%, 70%) 2500px, transparent 0.5px); /* Linha fina de 0.5px */
+.card-line{
+    width: 100%;
+    height: 1px; /* Espessura da linha */
+    background-color: rgba(255, 255, 255, 0.2); /* Cor da linha com transparência */
     margin: 10px 0; 
 }
+
