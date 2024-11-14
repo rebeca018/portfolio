@@ -6,7 +6,7 @@ body {
     background-color: #1C1B29;
     font-weight: 400; 
     line-height: 1.6;
-    color: #fff;
+    color: #E6E1FF;
 }
 
 html, .fullscreen {
@@ -99,6 +99,7 @@ html, .fullscreen {
 }
 
 .card-img-power{
+    position: relative;
     width: 18px;
     height: 18px;
     display: flex; 
@@ -130,12 +131,32 @@ html, .fullscreen {
   
 .power-bar {
     height: 100%;
-    width: 0;
-    background-color: c1b6fa;
+    width: 10%;
+    background-color: #c1b6fa;
     transition: width 0.5s ease, background-color 0.5s ease;
-  
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c1b6fa;
+    color: #2f2e47;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    white-space: nowrap;
 }
   
+.card-img-power:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 .card-location{
     display: flex;
@@ -166,7 +187,7 @@ html, .fullscreen {
     border-radius: 50%; 
     object-fit: cover; 
     margin-right: 8px;
-    border: 1px solid #fff;
+    border: 1px solid #E6E1FF;
 }
 
 .card-p-created{
