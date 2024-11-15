@@ -30,7 +30,7 @@ html, .fullscreen {
 
 .card{
     display: inline-block;
-    background-color: 1C1B29;
+    background-color: #1C1B29;
     border-radius: 10px;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
     cursor: pointer;
@@ -47,7 +47,7 @@ html, .fullscreen {
 
 .card-hf{
     display: inline-block;
-    background-color: 1C1B29;
+    background-color: #1C1B29;
     border-radius: 10px;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
     cursor: pointer;
@@ -58,13 +58,13 @@ html, .fullscreen {
 
 .card-hf:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #ffe100 100%);
-    box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.3);
+    box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.74);
     transform: scale(0.98);
 }
 
 .card-ca{
     display: inline-block;
-    background-color: 1C1B29;
+    background-color: #1C1B29;
     border-radius: 10px;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
     cursor: pointer;
@@ -81,7 +81,7 @@ html, .fullscreen {
 
 .card-t{
     display: inline-block;
-    background-color: 1C1B29;
+    background-color: #1C1B29;
     border-radius: 10px;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
     cursor: pointer;
@@ -98,7 +98,7 @@ html, .fullscreen {
 
 .card-ds{
     display: inline-block;
-    background-color: 1C1B29;
+    background-color: #1C1B29;
     border-radius: 10px;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
     cursor: pointer;
@@ -113,26 +113,10 @@ html, .fullscreen {
     transform: scale(0.98);
 }
 
-.card-hf{
-    display: inline-block;
-    background-color: 1C1B29;
-    border-radius: 10px;
-    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
-    cursor: pointer;
-    width: 250px;
-    justify-content: center;
-    padding: 5px;
-}
-
-.card-hf:hover{
-    background-image: linear-gradient(163deg, #ff0000 0%, #060606 100%);
-    box-shadow: 0px 0px 30px 1px rgb(9, 3, 80);
-    transform: scale(0.98);
-}
 
 .card-sm{
     display: inline-block;
-    background-color: 1C1B29;
+    background-color: #1C1B29;
     border-radius: 10px;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
     cursor: pointer;
@@ -147,6 +131,22 @@ html, .fullscreen {
     transform: scale(0.98);
 }
 
+.card-pn{
+    display: inline-block;
+    background-color: #1C1B29;
+    border-radius: 10px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+    cursor: pointer;
+    width: 250px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.card-pn:hover{
+    background-image: linear-gradient(163deg, #8400ff 0%, #2e1758 100%);
+    box-shadow: 0px 0px 30px 1px rgb(140, 0, 255);
+    transform: scale(0.98);
+}
 
 
 
