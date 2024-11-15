@@ -75,7 +75,7 @@ html, .fullscreen {
 
 .card-ca:hover{
     background-image: linear-gradient(163deg, #0015ff 0%, #ff1900 100%);
-    box-shadow: 0px 0px 30px 1px rgba(0, 34, 255, 0.3);
+    box-shadow: 0px 0px 30px 1px rgb(0, 34, 255);
     transform: scale(0.98);
 }
 
@@ -92,7 +92,7 @@ html, .fullscreen {
 
 .card-t:hover{
     background-image: linear-gradient(163deg, #00bbff 0%, #1e00ff 100%);
-    box-shadow: 0px 0px 30px 1px rgb(9, 3, 80);
+    box-shadow: 0px 0px 30px 1px rgb(0, 145, 255);
     transform: scale(0.98);
 }
 
@@ -109,10 +109,26 @@ html, .fullscreen {
 
 .card-ds:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #ffa200 100%);
-    box-shadow: 0px 0px 30px 1px rgb(9, 3, 80);
+    box-shadow: 0px 0px 30px 1px rgb(3, 0, 185);
     transform: scale(0.98);
 }
 
+.card-am{
+    display: inline-block;
+    background-color: #1C1B29;
+    border-radius: 10px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+    cursor: pointer;
+    width: 250px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.card-am:hover{
+    background-image: linear-gradient(163deg, #ff0000 0%, #000000 100%);
+    box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.74);
+    transform: scale(0.98);
+}
 
 .card-sm{
     display: inline-block;
@@ -127,7 +143,7 @@ html, .fullscreen {
 
 .card-sm:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #000d81 100%);
-    box-shadow: 0px 0px 30px 1px rgba(0, 34, 255, 0.3);
+    box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
     transform: scale(0.98);
 }
 
