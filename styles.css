@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+body::-webkit-scrollbar {
+    width: 12px;               
+}
+  
+body::-webkit-scrollbar-track {
+    background: #8B0000;        
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #B22222;    
+    border-radius: 20px;       
+    border: 3px solid #FF6347;  
+}
+
+
 body {
     font-family: 'Outfit';
     margin: 0;
