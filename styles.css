@@ -128,7 +128,8 @@ header::after {
 .card-hf:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #ffe100 100%);
     box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.74);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-ca{
@@ -145,7 +146,8 @@ header::after {
 .card-ca:hover{
     background-image: linear-gradient(163deg, #0015ff 0%, #ff1900 100%);
     box-shadow: 0px 0px 30px 1px rgb(0, 34, 255);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-t{
@@ -162,7 +164,8 @@ header::after {
 .card-t:hover{
     background-image: linear-gradient(163deg, #00bbff 0%, #1e00ff 100%);
     box-shadow: 0px 0px 30px 1px rgb(0, 145, 255);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-ds{
@@ -179,7 +182,8 @@ header::after {
 .card-ds:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #ffa200 100%);
     box-shadow: 0px 0px 30px 1px rgb(3, 0, 185);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-am{
@@ -196,7 +200,8 @@ header::after {
 .card-am:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #000000 100%);
     box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.74);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-sm{
@@ -213,7 +218,8 @@ header::after {
 .card-sm:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #000d81 100%);
     box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-pn{
@@ -230,7 +236,8 @@ header::after {
 .card-pn:hover{
     background-image: linear-gradient(163deg, #8400ff 0%, #2e1758 100%);
     box-shadow: 0px 0px 30px 1px rgb(140, 0, 255);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-bw{
@@ -247,7 +254,8 @@ header::after {
 .card-bw:hover{
     background-image: linear-gradient(163deg, #ff0000 0%, #581717 100%);
     box-shadow: 0px 0px 30px 1px rgb(199, 2, 2);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-mn{
@@ -264,7 +272,8 @@ header::after {
 .card-mn:hover{
     background-image: linear-gradient(163deg, #e6e6e6 0%, #a2a2a2 100%);
     box-shadow: 0px 0px 30px 1px rgb(255, 255, 255);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 .card-lk{
@@ -281,7 +290,8 @@ header::after {
 .card-lk:hover{
     background-image: linear-gradient(163deg, #00ff51 0%, #006a3c 100%);
     box-shadow: 0px 0px 30px 1px rgb(2, 101, 43);
-    transform: scale(0.98);
+    transform: translateZ(0);
+    width: 248px;
 }
 
 
@@ -299,6 +309,7 @@ header::after {
     margin-bottom: 0;
     transition: all 0.25s cubic-bezier(0, 0, 0, 1);
 }
+
 
 .card-content h4:hover{
     color: #9F82FF;
