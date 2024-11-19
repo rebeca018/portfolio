@@ -10,7 +10,7 @@ Below are examples of the site's interactive cards and their hover effects in th
 ![](./images/screenshot2.png)
 
 ### Mobile:
-Below are examples of the site's interactive cards in the mobile version:
+Below is an example of the mobile version of the site:
 
 ![](./images/screenshot3.png)
 
