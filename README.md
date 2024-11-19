@@ -3,9 +3,16 @@ This site features several cards with images of Baymax, from the movie Big Hero 
 
 
 ### Screenshot
-Below are examples of the site's interactive cards and their hover effects: 
+##### Desktop
+Below are examples of the site's interactive cards and their hover effects in the desktop version:
 ![](./images/screenshot.png)
 ![](./images/screenshot2.png)
+
+##### Mobile
+Below are examples of the site's interactive cards and their hover effects in the mobile version:
+
+![](./images/mobile.jpeg)
+![](./images/mobile-2.jpeg)
 
 
 ### Links
