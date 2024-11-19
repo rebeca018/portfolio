@@ -2,21 +2,20 @@
 This site features several cards with images of Baymax, from the movie Big Hero 6, as Marvel characters. In addition to the images, the cards feature a description of the character's power, a bar showing the power level, and the character's place of origin. The cards feature a personalized hover for each hero (or villain) shown on the card.
 
 
-### Screenshot
+## Screenshot
 
-**Desktop:**
+### Desktop:
 Below are examples of the site's interactive cards and their hover effects in the desktop version:
 ![](./images/screenshot.png)
 ![](./images/screenshot2.png)
 
-**Mobile:**
-Below are examples of the site's interactive cards and their hover effects in the mobile version:
+### Mobile:
+Below are examples of the site's interactive cards in the mobile version:
 
-![](./images/mobile.jpeg)
-![](./images/mobile-2.jpeg)
+![](./images/screenshot3.png)
 
 
-### Links
+## Links
 
 - You can access this site via the link: [Baymax: The Marvel Characters Version](https://rebeca018.github.io/portfolio/)
 
